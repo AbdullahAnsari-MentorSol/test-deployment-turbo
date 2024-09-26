@@ -67,9 +67,9 @@ function AuthButtons() {
   return (
     <div className={'flex space-x-2'}>
       <div className={'hidden space-x-0.5 md:flex'}>
-        {/* <If condition={features.enableThemeToggle}>
+        <If condition={features.enableThemeToggle}>
           <ModeToggle />
-        </If> */}
+        </If>
 
         <Button asChild variant={'ghost'}>
           <Link href={pathsConfig.auth.signIn}>

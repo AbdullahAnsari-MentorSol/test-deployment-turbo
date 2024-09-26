@@ -168,7 +168,7 @@ function PricingItem(
       data-cy={'subscription-plan'}
       className={cn(
         props.className,
-        `s-full relative flex flex-1 grow flex-col items-stretch justify-between self-stretch rounded-xl border p-8 lg:w-4/12 xl:max-w-[18rem]`,
+        `s-full relative flex flex-1 grow flex-col items-stretch justify-between self-stretch rounded-xl border p-8 lg:w-3/12 xl:max-w-[18rem]`,
         {
           ['border-primary']: highlighted,
           ['border-border']: !highlighted,

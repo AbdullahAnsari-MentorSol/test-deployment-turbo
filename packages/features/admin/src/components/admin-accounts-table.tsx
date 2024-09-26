@@ -51,15 +51,16 @@ const FiltersSchema = z.object({
 });
 
 const tierRank = {
-  starter: 1,
-  pro: 2,
-  enterprise: 3,
+  Free: 1,
+  Starter: 2,
+  Pro: 3,
+  Enterprise: 4,
 } as const;
 
 type Tier = keyof typeof tierRank;
 
 function isValidTier(tier: string | null): tier is Tier {
-  return tier === 'starter' || tier === 'pro' || tier === 'enterprise';
+  return tier ==='Free'||tier === 'Starter' || tier === 'Pro' || tier === 'Enterprise';
 }
 
 function getTierChangeIcon(currentTier: Tier | null, previousTier: Tier | null) {
@@ -226,7 +227,6 @@ function getColumns(): ColumnDef<Account>[] {
 
         const isCurrentTierValid = isValidTier(currentTier);
         const isPreviousTierValid = isValidTier(previousTier);
-
         return (
           <div className="flex items-center space-x-2">
             <span>{currentTier}</span>

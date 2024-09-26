@@ -50,7 +50,7 @@ export class AdminDashboardService {
       .from('subscriptions')
       .select('*', selectParams)
       .eq('status', 'active')
-      .eq('tier', 'starter')
+      .eq('tier', 'Starter')
       .then((response) => {
         if (response.error) {
           logger.error(
@@ -68,7 +68,7 @@ export class AdminDashboardService {
       .from('subscriptions')
       .select('*', selectParams)
       .eq('status', 'active')
-      .eq('tier', 'pro')
+      .eq('tier', 'Pro')
       .then((response) => {
         if (response.error) {
           logger.error(
@@ -86,7 +86,7 @@ export class AdminDashboardService {
       .from('subscriptions')
       .select('*', selectParams)
       .eq('status', 'active')
-      .eq('tier', 'exterprise')
+      .eq('tier', 'Enterprise')
       .then((response) => {
         if (response.error) {
           logger.error(

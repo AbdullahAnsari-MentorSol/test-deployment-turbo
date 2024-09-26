@@ -17,14 +17,14 @@ export function HomeSidebar(props: { workspace: UserWorkspace }) {
 
   return (
     <Sidebar>
-      <SidebarContent className={'h-16 justify-center'}>
+      {/* <SidebarContent className={'h-16 justify-center'}>
       <AppLogo className={'py-2 mt-4'} href='/home'/>
-      </SidebarContent>
-      <SidebarContent className={'h-16 justify-center'}>
+      </SidebarContent> */}
+      <SidebarContent className={'h-16 justify-center mt-4'}>
         <div className={'flex items-center justify-between space-x-2'}>
           <If
             condition={featuresFlagConfig.enableTeamAccounts}
-            fallback={<AppLogo className={'py-2'} />}
+            fallback={<AppLogo href='/home' className={'py-2'} />}
           >
             <HomeAccountSelector
               userId={user.id}

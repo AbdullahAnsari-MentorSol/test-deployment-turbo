@@ -199,6 +199,7 @@ async function SubscriptionsTable(props: { accountId: string }) {
     .from('subscriptions')
     .select('*, subscription_items !inner (*)')
     .eq('account_id', props.accountId)
+    .eq('status','active')
     .maybeSingle();
 
   if (error) {
