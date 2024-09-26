@@ -655,7 +655,7 @@ importers:
   packages/features/admin:
     dependencies:
       date-fns:
-        specifier: 3.6.0
+        specifier: ^3.6.0
         version: 3.6.0
     devDependencies:
       '@hookform/resolvers':
