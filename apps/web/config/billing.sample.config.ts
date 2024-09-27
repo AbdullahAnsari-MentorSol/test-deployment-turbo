@@ -107,12 +107,12 @@ export default createBillingSchema({
       plans: [
         {
           name: 'Pro Monthly',
-          id: 'price_1Q3bqiJglZdczVxbEYFjr5d8',
+          id: 'price_1Q3c9CJglZdczVxbS2rjrw0h',
           paymentType: 'recurring',
           interval: 'month',
           lineItems: [
             {
-              id: 'price_1Q3bqiJglZdczVxbEYFjr5d8',
+              id: 'price_1Q3c9CJglZdczVxbS2rjrw0h',
               name: 'Base',
               cost: 49.00,
               type: 'flat',

@@ -365,7 +365,7 @@ async cancelSubscription(subscriptionId: string, invoiceNow: boolean): Promise<b
     'price_1Q3bouJglZdczVxbmZSnl7hN': '5 minutes',                    // Free Yearly
     'price_1Q3bqiJglZdczVxbEYFjr5d8': '60 minutes', // Starter Monthly
     'price_1Q18MkIViLzP3Qt92iXEwszf': '60 minutes',                // Starter Yearly
-    'price_1Q3bqiJglZdczVxbEYFjr5d8': '160 minutes',// Pro Monthly
+    'price_1Q3c9CJglZdczVxbS2rjrw0h': '160 minutes',// Pro Monthly
     'price_1Q18OWIViLzP3Qt9gQZpNp1p': '160 minutes',                   // Pro Yearly
     'price_1PuqyBJglZdczVxbfvPOMhqI': 'Custom',    // Enterprise Monthly
     'enterprise-yearly': 'Custom'                  // Enterprise Yearly
