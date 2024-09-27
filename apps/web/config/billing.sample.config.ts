@@ -85,7 +85,7 @@ export default createBillingSchema({
           interval: 'year',
           lineItems: [
             {
-              id: 'price_1Q18MkIViLzP3Qt92iXEwszf', // Updated to make unique
+              id: 'price_1Q18MkIViLzP3Qt92iXEwszf',
               name: 'Base',
               cost: 205.00,
               type: 'flat' as const,
