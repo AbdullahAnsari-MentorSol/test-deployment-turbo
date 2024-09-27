@@ -26,12 +26,12 @@ export default createBillingSchema({
       plans: [
         {
           name: 'Free Monthly',
-          id: 'price_1Q18KrIViLzP3Qt9OeIDUDre',
+          id: 'price_1PzhAWJglZdczVxbd00Rhoiv',
           paymentType: 'recurring',
           interval: 'month',
           lineItems: [
             {
-              id: 'price_1Q18KrIViLzP3Qt9OeIDUDre',
+              id: 'price_1PzhAWJglZdczVxbd00Rhoiv',
               name: 'Free Monthly',
               cost: 0.00,
               type: 'flat' as const,
@@ -40,12 +40,12 @@ export default createBillingSchema({
         },
         {
           name: 'Free Yearly',
-          id: 'price_1Q18N5IViLzP3Qt9388qo65k',
+          id: 'price_1Q3bouJglZdczVxbmZSnl7hN',
           paymentType: 'recurring',
           interval: 'year',
           lineItems: [
             {
-              id: 'price_1Q18N5IViLzP3Qt9388qo65k', // Updated to make unique
+              id: 'price_1Q3bouJglZdczVxbmZSnl7hN', // Updated to make unique
               name: 'Free Monthly',
               cost: 0.00,
               type: 'flat' as const,
@@ -107,12 +107,12 @@ export default createBillingSchema({
       plans: [
         {
           name: 'Pro Monthly',
-          id: 'price_1Q18NnIViLzP3Qt9J2s4lGjs',
+          id: 'price_1Q3bqiJglZdczVxbEYFjr5d8',
           paymentType: 'recurring',
           interval: 'month',
           lineItems: [
             {
-              id: 'price_1Q18NnIViLzP3Qt9J2s4lGjs',
+              id: 'price_1Q3bqiJglZdczVxbEYFjr5d8',
               name: 'Base',
               cost: 49.00,
               type: 'flat',
