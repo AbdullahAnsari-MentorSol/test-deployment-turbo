@@ -363,7 +363,7 @@ async cancelSubscription(subscriptionId: string, invoiceNow: boolean): Promise<b
   const planCreditMap: { [key: string]: string } = {
     'price_1PzhAWJglZdczVxbd00Rhoiv': '5 minutes',  // Free Monthly
     'price_1Q3bouJglZdczVxbmZSnl7hN': '5 minutes',                    // Free Yearly
-    'price_1Q18MIIViLzP3Qt9zQBZWLJx': '60 minutes', // Starter Monthly
+    'price_1Q3bqiJglZdczVxbEYFjr5d8': '60 minutes', // Starter Monthly
     'price_1Q18MkIViLzP3Qt92iXEwszf': '60 minutes',                // Starter Yearly
     'price_1Q3bqiJglZdczVxbEYFjr5d8': '160 minutes',// Pro Monthly
     'price_1Q18OWIViLzP3Qt9gQZpNp1p': '160 minutes',                   // Pro Yearly
